@@ -1,0 +1,218 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Yeon Sung', cursive;			
+}
+
+.container{
+	width:100%;
+	height:100vh;
+	background-image:url(Gambar/earth.jpg);
+	background-size:cover;
+}
+
+.overlay{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:black;
+	opacity:0.3;
+}
+
+.nav{
+	width:100%;
+	height: 80px;
+	background-color:none;
+	line-height:80px;
+}
+
+.nav ul{
+	float:right;
+	margin-right:560px;
+	margin-top:10px;
+	background-color:#0009;
+	opacity:0.9;
+}
+
+.nav ul li{
+	display:inline-block;
+	transition:0.5s all;	
+}
+
+.nav ul li:hover{
+	background-color:#f39d1a;
+}
+
+.nav ul li a{
+	text-decoration:none;
+	color: #fff;
+	padding: 30px;
+}
+
+.Profile img{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	margin-left:600px;
+	margin-top:10px;
+	position:relative;
+}
+
+.Profile h2{
+	text-align:center;
+	color:white;
+	font-size:33px;
+	position:relative;
+}
+
+.Profile h4{
+	text-align:center;
+	color:#e23e57;
+	position:relative;	
+}
+
+.Footer{
+
+}
+
+.Footer p{
+	text-align:center;
+	font-size:20px;
+	color:white;
+	position:relative;
+	padding-left:300px;
+	padding-top:75px;
+	float:left;
+}
+
+ .html{
+	position:relative;
+	color:white;
+	width:120px;
+	height:120px;
+	margin-bottom:0px;
+	margin-left:270px;
+}
+
+.css{
+	position:relative;
+	width:120px;
+	height:120px;
+	margin-top:1px;
+	margin-left:225px;
+}
+
+.about h2{
+ color:white;
+ font-size:30px;
+ position:relative;
+ margin-left:50px;
+
+}
+
+.about p{
+	background-color:#ffdc34;
+	position:relative;
+	color:#110133;
+
+}
+
+.jvs{
+	position:relative;
+	width:120px;
+	height:120px;
+	margin-top:1px;
+	margin-left:245px;
+}
+
+/*
+------------------------------------------------------
+	contact
+------------------------------------------------------
+*/
+
+.tlpn{
+	padding-top:100px;
+	padding-left:50px;
+	width:70px;
+	height:70px;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	position:relative;
+}
+
+.angka{
+	padding-top:130px;
+	padding-left:150px;
+	font-size:20px;
+	color:white;
+
+}
+
+.eml{
+	width:75px;
+	height:75px;
+	position:relative;
+	margin-top:100px;
+	float: left;
+	right:20px;	 
+}
+
+.mail{
+	padding-top:130px;
+	
+	font-size:20px;
+	color: white;
+}
+
+.fbok{
+	width:75px;
+	height:75px;
+	float:right;
+	margin-right:80px;
+	position:relative;
+
+}	
+
+.fb{
+	color:white;
+	float:right;
+	font-size:20px;
+	margin-top:30px;
+	margin-right:20px;
+	position:relative;
+}
+
+.igeh{
+	width:90px;
+	height:90px;
+	position:relative;
+	float:right;
+	margin-top:150px;
+}
+
+.ig{
+	color:white;
+	float:right;
+	font-size:20px;
+	margin-top:180px;
+	margin-right:10px;
+	position:relative;	
+}
+
+@media screen and (max-width:680px){
+
+	.container,.overlay,.nav,.Profile,.about,.Footer{
+		width:auto;
+		float:none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+.container,.overlay,.nav,.Profile,.about,.Footer{
+		width:auto;
+		float:none;
+	}
+}
